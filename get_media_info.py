@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
 
     try:
-        vids = 'v0d361g10064ct1djfaljhtbrd9ikglg'
+        vids = 'v0d361g10064ct24lq2ljhtf7rj8gge0'
         req = VodGetMediaInfosRequest()
         req.Vids = vids
         resp = vod_service.get_media_infos(req)

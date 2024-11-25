@@ -8,7 +8,7 @@ if __name__ == '__main__':
     vod_service = init_vod_service()
 
     try:
-        vid = 'v0d361g10064ct1djfaljhtbrd9ikglg'
+        vid = 'v0d361g10064ct24lq2ljhtf7rj8gge0'
         status = 'Published'
         req3 = VodUpdateMediaPublishStatusRequest()
         req3.Vid = vid

@@ -32,7 +32,7 @@ if __name__ == '__main__':
     get_start_workflow_func = Function.get_start_workflow_template_func(
         [{"TemplateIds": ["imp template id"], "TemplateType": "imp"},
          {"TemplateIds": ["  template id"], "TemplateType": "transcode"}])
-    apply_function = Function.get_add_option_info_func(title="米粉",classification_id='直播间',tags= "小米", description="小米米粉直播间", is_hls_index_only=True)
+    apply_function = Function.get_add_option_info_func(title="米粉",classification_id=1731601509,tags= "小米", description="小米米粉直播间", is_hls_index_only=True)
 
     try:
         # 创建上传请求
