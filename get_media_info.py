@@ -2,13 +2,12 @@
 from __future__ import print_function
 from vod_init import init_vod_service
 from volcengine.vod.models.request.request_vod_pb2 import *
-from volcengine.vod.VodService import VodService
+
 
 if __name__ == '__main__':
     # Create a VOD instance in the specified region.
     # vod_service = VodService('cn-north-1')
     vod_service = init_vod_service()
-
 
     try:
         vids = 'v0d361g10064ct24lq2ljhtf7rj8gge0'

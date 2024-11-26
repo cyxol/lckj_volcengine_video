@@ -23,3 +23,4 @@ def init_vod_service(region='cn-north-1'):
 
 if __name__ == '__main__':
     init_vod_service()
+    print('接口配置成功!')
