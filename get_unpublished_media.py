@@ -1,13 +1,14 @@
 # coding:utf-8
 from __future__ import print_function
 
-from volcengine.vod.VodService import VodService
+
+from vod_init import init_vod_service
 from volcengine.vod.models.request.request_vod_pb2 import VodApplyUploadInfoRequest
 
 if __name__ == '__main__':
     # Create a VOD instance in the specified region.
     # vod_service = VodService('cn-north-1')
-    vod_service = VodService()
+    vod_service = init_vod_service()
 
     # Configure your Access Key ID (AK) and Secret Access Key (SK) in the environment variables or in the local ~/.volc/config file. For detailed instructions, see https://www.volcengine.com/docs/4/65646.
     # The SDK will automatically fetch the AK and SK from the environment variables or the ~/.volc/config file as needed.
@@ -15,7 +16,7 @@ if __name__ == '__main__':
     # vod_service.set_ak('your ak')
     # vod_service.set_sk('your sk')
 
-    space_name = 'your space'
+    space_name = 'hyys-lckj'
 
     try:
         req = VodApplyUploadInfoRequest()
